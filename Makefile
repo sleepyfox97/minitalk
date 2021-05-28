@@ -33,7 +33,7 @@ $(NAME2) : $(OBJS_CLIENT)
 	@echo "$(_YELLOW)Try \"./$(NAME2) first$(_END)"
 
 clean:
-	@echo "Removing object files...."
+	@echo "$(_BLUE)Removing object files....$(END)"
 	@rm -rf $(OBJS_CLIENT) $(OBJS_SERVER)
 
 fclean:
