@@ -1,4 +1,4 @@
-#include "minitalk.h"
+#include "minitalk_bonus.h"
 
 char	ft_putchar_sig(int bit)
 {
@@ -101,7 +101,7 @@ int	main(int argc, char *argv[])
 
 	(void)argv;
 	if (argc != 1)
-		return (write(1, "Error\nAguments have to be only one.\n", 36));
+		return (write(1, "Error\nArguments have to be only one.\n", 36));
 	pid = getpid();
 	g_flag = 0;
 	if (pid <= 0)
